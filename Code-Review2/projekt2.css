@@ -1,0 +1,138 @@
+body {
+	margin: 0;
+	background-color: #E6EAEE;
+}
+
+header {
+	width: 100%;
+	height: 90px;
+	background-color:#003680;
+	-webkit-flex-grow: 5;
+}
+
+.logo{
+	width: 10%;
+	height: 80%;
+	padding: 8px;
+	margin-left: 60px;
+}
+
+.name{
+	color: white;
+	font-size:20px;
+	margin-right: 20px;
+}
+.name p{
+	color: white;
+}
+
+
+header div{
+	float: left;
+}
+
+.flex.container{
+	display: flex;
+	padding: 8px;
+	background-color: #E6EAEE;
+	margin: 20px auto;
+	box-sizing: border-box;
+	justify-content: space-between;
+	-webkit-flex-grow: 5;
+
+}
+
+
+
+#column1{
+	float: left;
+	margin-left:150px;
+	margin-top: 20px;
+	background-color: white;
+	border-radius:2%;
+	border: 1px solid grey;
+	box-shadow: 8px 8px 6px gray;
+   	font-size: 14px;
+   	flex-basis: 30px;
+   	float: left;
+   	flex-grow: 1;
+}
+
+.text1, .text2 {
+	text-align: center;
+	color: blue;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+
+
+}
+h3{
+	color: #5CABD1;
+	margin-left: 10px;
+	font-family: sans-serif;
+}
+p{
+	color: #4F4F4F;
+	margin-left: 10px;
+	font-family: sans-serif;
+}
+.p3{
+	margin-right: 10px;
+	font-family: sans-serif;
+	margin-bottom:10px;
+	font-size: 20px;
+	
+}
+#pa{
+	margin-right: 10px;
+	font-family: sans-serif;
+	margin-top: 1px;
+}
+
+#column2{
+	float: right;
+	margin-top: 20px;
+	margin-right: 150px;
+	background-color: white;
+	border-radius:2%;
+	border: 1px solid grey;
+	box-shadow: 10px 10px 6px gray;
+	font-size: 14px;
+	flex-basis: 40px;
+	flex-grow: 1;
+	
+	
+}
+.middle{
+	display: -webkit-flex;
+	min-height: 500px;
+}
+article{
+	-webkit-flex: 3 0 0;
+	-webkit-flex-flow: column;
+	-webkit-flex-flow: row;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+footer{
+	width: 100%;
+	height:50px;
+	margin-bottom:30px;
+	text-align: center;
+}
+#box{
+	width: 200px;
+	background-color: #51A5CF;
+	line-height: 50px;
+	text-align: center;
+	display: block;
+	margin: 3rem auto;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	flex-grow: 1;
+	border-radius: 5px;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5),1px 1px 5px rgba(0, 0, 0, 0.3);
+
+}
